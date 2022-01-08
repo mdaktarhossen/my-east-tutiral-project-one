@@ -102,6 +102,45 @@ nav img {
   transition: 0.5s;
 }
 .courses:hover {
-  box-shadow: 0 30px 10px gray;
-  /* border: 1px solid white; */
+  box-shadow: 0px 5px 10px gray;
+  border-top: 5px solid green;
+}
+
+/* campus section */
+.compus-section {
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+  text-align: center;
+}
+.compus {
+  flex-basis: 32%;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.compus img {
+  width: 100%;
+}
+.layer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.layer h1 {
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  font-style: normal;
+  opacity: 0;
+  transition: 0.5s;
+  transform: translateX(-50%);
+}
+.layer:hover h1 {
+  opacity: 1;
+  position: absolute;
+  bottom: 50%;
 }
