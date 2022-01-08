@@ -50,3 +50,58 @@ nav img {
   color: white;
   font-size: 13px;
 }
+.university {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  text-align: center;
+}
+.university h1 {
+  font-size: 50px;
+}
+.university p {
+  font-size: 14px;
+  margin: 10px 0px 40px;
+}
+
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  border: 1px solid white;
+  padding: 10px 20px;
+  background-color: gray;
+}
+.btn:hover {
+  background-color: green;
+  transition: 1s;
+  border: none;
+}
+
+/* cousre section */
+.course-section {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding-top: 100px;
+}
+.row {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.courses {
+  border-radius: 5px;
+  padding: 20px 10px;
+  background-color: lightgray;
+  margin: 0px 15px 10px;
+  transition: 0.5s;
+}
+.courses:hover {
+  box-shadow: 0 30px 10px gray;
+  /* border: 1px solid white; */
+}
