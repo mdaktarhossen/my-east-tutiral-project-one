@@ -144,3 +144,55 @@ nav img {
   position: absolute;
   bottom: 50%;
 }
+
+/* section four */
+.factilist-section {
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+  text-align: center;
+}
+.factilist {
+  flex-basis: 32%;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.factilist img {
+  width: 100%;
+}
+.factilist h1 {
+  text-align: center;
+}
+.factilist p {
+  padding: 0;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* section-five */
+.testmoniam-section {
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+  text-align: center;
+}
+.testmoniam {
+  display: flex;
+  flex-basis: 44%;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 30px;
+  overflow: hidden;
+  background: lemonchiffon;
+  cursor: pointer;
+}
+.testmoniam img {
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+.testmoniam .fas{
+  color: yellowgreen;
+}
